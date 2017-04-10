@@ -19,6 +19,10 @@
         </activity>
         <activity android:name=".PhotoViewerActivity">
         </activity>
+        <activity android:name=".DemoImageActivity">
+        </activity>
+        <activity android:name=".DemoFileActivity">
+        </activity>
     </application>
 
 </manifest>

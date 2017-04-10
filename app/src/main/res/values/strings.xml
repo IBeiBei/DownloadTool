@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">DownLoadTool</string>
     <string name="loading">loading</string>
+    <string name="title_activity_demo_file_download">DemoFileDownloadActivity</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
