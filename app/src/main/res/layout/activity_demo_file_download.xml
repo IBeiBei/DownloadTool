@@ -7,26 +7,12 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/tv_demo_image"
+        android:id="@+id/tv_filename"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="DownLoad Image Example"
-        android:textColor="#ffffff"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="#ffffff"/>
-    <TextView
-        android:id="@+id/tv_demo_file"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:text="DownLoad File Example"
+        android:text="messagebottle.pdf"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:textStyle="bold" />
