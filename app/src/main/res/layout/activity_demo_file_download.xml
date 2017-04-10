@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="messagebottle.pdf"
+        android:text="java.docx"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:textStyle="bold" />
