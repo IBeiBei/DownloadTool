@@ -34,17 +34,17 @@ public class DemoImageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_demo_image);
         ButterKnife.bind(this);
         //init baseUrl
-        BaseUrl.url = "http://sucai.qqjay.com";
+        BaseUrl.url = "https://github.com";
         //init data
         filesBeanList = new ArrayList<>();
         FilesBean filesBean = new FilesBean();
-        filesBean.setUrl("http://sucai.qqjay.com/qqjayxiaowo/201210/26/1.jpg");
+        filesBean.setUrl("https://github.com/IBeiBei/DownloadTool/blob/master/app/src/main/res/raw/1.jpg");
         FilesBean filesBean1 = new FilesBean();
-        filesBean1.setUrl("http://sucai.qqjay.com/qqjayxiaowo/201210/26/2.jpg");
+        filesBean1.setUrl("https://github.com/IBeiBei/DownloadTool/blob/master/app/src/main/res/raw/2.jpg");
         FilesBean filesBean2 = new FilesBean();
-        filesBean2.setUrl("http://sucai.qqjay.com/qqjayxiaowo/201210/26/3.jpg");
+        filesBean2.setUrl("https://github.com/IBeiBei/DownloadTool/blob/master/app/src/main/res/raw/3.jpg");
         FilesBean filesBean3 = new FilesBean();
-        filesBean3.setUrl("http://sucai.qqjay.com/qqjayxiaowo/201210/26/4.jpg");
+        filesBean3.setUrl("https://github.com/IBeiBei/DownloadTool/blob/master/app/src/main/res/raw/4.jpg");
         filesBeanList.add(filesBean);
         filesBeanList.add(filesBean1);
         filesBeanList.add(filesBean2);

@@ -88,7 +88,7 @@ public class DemoFileActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View view) {
         FilesBean filesBean = new FilesBean();
         filesBean.setFileName("java.docx");
-        filesBean.setUrl("https://github.com/IBeiBei/DownloadTool/blob/demo-download-file/app/src/main/res/raw/java.docx");
+        filesBean.setUrl("https://github.com/IBeiBei/DownloadTool/blob/master/app/src/main/res/raw/java.docx");
         getFile(this,filesBean);
     }
 }
