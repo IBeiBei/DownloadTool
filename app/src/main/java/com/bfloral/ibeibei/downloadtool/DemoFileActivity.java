@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.bfloral.ibeibei.downloadtool.data.api.BaseUrl;
 import com.bfloral.ibeibei.downloadtool.domain.FilesBean;
 import com.bfloral.ibeibei.downloadtool.util.file.FileCallback;
 import com.bfloral.ibeibei.downloadtool.util.file.FileUtils;
@@ -29,8 +30,10 @@ public class DemoFileActivity extends AppCompatActivity implements View.OnClickL
         setContentView(R.layout.activity_demo_file_download);
         ButterKnife.bind(this);
         tv_filename.setOnClickListener(this);
+        BaseUrl.url="https://github.com";
     }
     public void getFile(Context context,final FilesBean filesBean){
+        setLoadingIndicator(true);
         FileUtils.loadFile(context,filesBean, new FileCallback() {
             @Override
             public void loadFileOk(File file) {
@@ -84,8 +87,8 @@ public class DemoFileActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View view) {
         FilesBean filesBean = new FilesBean();
-        filesBean.setFileName("messagebottle.pdf");
-        filesBean.setUrl("");
+        filesBean.setFileName("java.docx");
+        filesBean.setUrl("https://github.com/IBeiBei/DownloadTool/blob/demo-download-file/app/src/main/res/raw/java.docx");
         getFile(this,filesBean);
     }
 }
