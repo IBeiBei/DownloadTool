@@ -18,3 +18,6 @@ ApiService:Should define REST api path base on real environment. BaseUrl:Should 
 
 # Q&A
 mingli0506@gmail.com
+
+# Design Sketch
+ ![image](https://raw.githubusercontent.com/IBeiBei/DownloadTool/master/app/src/main/res/raw/designsketch.gif)
